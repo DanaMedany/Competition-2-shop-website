@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Out</title>
+  <link rel="stylesheet" href="/master.css">
+  <script src="https://kit.fontawesome.com/669ff434e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- header start -->
+   <header>
+    <!-- header-left start -->
+    <div class="header-left">
+      <div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search">
+      </div>
+    </div>
+    <!-- header-left end -->
+
+    <!-- header-middle start -->
+    <div class="header-middle">
+      <h2>Dana Mohamed</h2>
+    </div>
+    <!-- header-middle end -->
+
+    <!-- header-right start -->
+    <div class="header-right">
+      <i class="fa-solid fa-user"></i>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <!-- header-right end -->
+  </header>
+  <!-- header end -->
+
+   <!-- navbar start -->
+   <nav>
+    <ul>
+      <li><a class="line-down" href="home.html">Home</a> </li>
+      <li><a class="line-down" href="about.html">About</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="">Catalogue</a></li>
+      <li><a href="">New Arrivals</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- this the gray-border start  -->
+  <section class="checkout">
+    <ul>
+      <li><a class="home" href="">Home</a></li>
+      <li><a class="carts-checkout" href="">Cart</a></li>
+      <li><a class="cart-checkout" href="">Checkout</a></li>
+    </ul>
+  </section>
+  <!-- this the gray-border end  -->
+
+  <!-- this the billing details start  -->
+  <section class="billing-details">
+      <!-- <input type="text" placeholder="Returning customer? click here to login" > -->
+     
+      <div class="checkout-details">
+         <div>
+          <p>Returning customer? 
+            <a href="">click here</a>
+            to login
+          </p>
+         </div> 
+      
+      <div>
+        <h1>Billing Details</h1>
+       <form>
+        <div>
+          <label id="country">Country</label>
+        </div>
+        <input type="text" class="full-width" list="airports" name="airports" placeholder="Select a country"> 
+        <datalist id="airports">
+          <option value="Berlin">
+          <option value="Los Angeles">
+          <option value="Moscow">
+          <option value="Paris">
+          <option value="Egypt">
+        </datalist>
+
+       <div class="label label-name">
+        <label class="name" for="firstName">First Name</label>
+        <label for="lastName">Last Name</label>
+      </div>
+      <input class="input-space" type="text" id="firstName">
+      <input class="input-space" type="text" id="lastName">
+        <div>
+          <label id="companyName">Company Name</label>
+        </div>
+        <input type="text" class="full-width" id="companyName">
+       <div>
+        <label id="address">Address</label>
+      </div>
+        <div>
+          <input type="text" class="full-width" id="address" placeholder="Street address">
+        </div>
+        <input type="text" class="full-width" placeholder="Apartment, Suite, Unit etc. (optional)">
+       <div class="label">
+        <label class="name" id="state">State / Country</label>
+        <label id="zip">Posta / Zip</label>
+      </div>
+      <input class="input-space" type="text" id="state">
+      <input class="input-space"  type="text" id="zip">
+       <div class="label">
+        <label class="name"  for="email">Email Address</label>
+        <label for="phone">Phone</label>
+      </div>
+      <input class="input-space" type="email" id="email">
+      <input class="input-space" type="tel" id="phone">
+
+       <div class="checkbox-label">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">Create an account?</label>
+       </div>
+
+       <div class="checkbox-label">
+        <input type="checkbox" id="checkbox-address">
+        <label for="checkbox-address">Ship To A Different Address?</label>
+       </div>
+
+       <div class="textarea-label">
+        <label>Order Notes</label>
+       </div>
+       <textarea placeholder="Write your notes here..."></textarea>
+       
+       </form>
+      </div>
+      <!-- <input type="email" placeholder="Email address" > -->
+    </div>
+
+    <div class="Coupon-Code">
+      <div>
+        <h1>Coupon Code</h1>
+      </div>
+      <div class="Coupon-Code-form">
+          <p>Enter your coupon code if you have one.</p>
+          <input type="text" placeholder="Coupon Code">
+          <button>Apply</button>
+      </div>
+
+        <div>
+          <h1>Your Order</h1>
+        </div>
+        <div class="your-order">
+          <div class="your-order-flex">
+            <div>
+              <h5>Product</h5>
+              <h6>Top Up T-Shirt x 1</h6>
+              <h6>Polo Shirt x 1</h6>
+              <h5>Cart Subtotal</h5>
+              <h5>Order Total</h5>
+            </div>
+            <div>
+              <h5>Total</h5>
+              <h6>$250.00</h6>
+              <h6>$100.00</h6>
+              <h6>$350.00</h6>
+              <h5>$350.00</h5>
+            </div>
+          </div>
+
+          <p><a href="">Direct Bank Transfer</a></p>
+          <p><a href="">Change Payment</a></p>
+          <p><a href="">Paypal</a></p>
+          <a href="/HTML/place-order.html">
+            <button>Place Order</button>
+          </a>
+        </div>
+    </div>
+
+  </section>
+    <!-- this the billing details end  -->
+
+  <!-- this footer start -->
+  <footer>
+    <div class="footer-flex">
+      <div>
+        <h4>Navigation</h4>
+        <h6>Sell online</h6>
+        <h6>Features</h6>
+        <h6>Shopping cart</h6>
+        <h6>Store builder</h6>
+      </div>
+      <div>
+        <h6>Mobile commerce</h6>
+        <h6>Dropshipping</h6>
+        <h6>Website development</h6>
+      </div>
+      <div>
+        <h6>Point of sale</h6>
+        <h6>Hardware</h6>
+        <h6>Software</h6>
+      </div>
+      <div class="promo">
+        <h4>Promo</h4>
+        <img src="/Images/hero_1.jpg" alt="">
+        <h6 class="color">Finding Your perfect shoes</h6>
+        <h6>Promo from nuary 15 - 25,2019</h6>
+      </div>
+      <div>
+        <h4>Contact info</h4>
+          <div class="contact-flex">
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Sharjah, United Arab Emirates</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <p> +971 545144662</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <p> Danamedany94@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Subscribe</h3>
+        <input type="email" placeholder="Email">
+        <button>Send</button>
+    </div>
+     
+    <p>Copyright &copy; All rights reserved | This template is made with &#9829 by <span>Dana Mohamed</span> </p>
+   </footer>
+   <!-- this footer end -->
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="/master.css">
+  <script src="https://kit.fontawesome.com/669ff434e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- header start -->
+   <header>
+    <!-- header-left start -->
+    <div class="header-left">
+      <div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search">
+      </div>
+    </div>
+    <!-- header-left end -->
+
+    <!-- header-middle start -->
+    <div class="header-middle">
+      <h2>Dana Mohamed</h2>
+    </div>
+    <!-- header-middle end -->
+
+    <!-- header-right start -->
+    <div class="header-right">
+      <i class="fa-solid fa-user"></i>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <!-- header-right end -->
+  </header>
+  <!-- header end -->
+
+   <!-- navbar start -->
+   <nav>
+    <ul>
+      <li><a class="line-down" href="../index.html">Home</a> </li>
+      <li><a class="line-down" href="/HTML/about.html">About</a></li>
+      <li><a href="/HTML/shop.html">Shop</a></li>
+      <li><a href="">Catalogue</a></li>
+      <li><a href="">New Arrivals</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- this the gray-border start  -->
+  <section class="gray-border">
+    <ul>
+      <li><a class="home" href="">Home</a></li>
+      <li><a class="about" href="">Cart</a></li>
+    </ul>
+  </section>
+  <!-- this the gray-border end  -->
+
+  <!-- this the table section start -->
+  <table>
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+        <th>Remove</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="/Images/cloth_1.jpg" alt=""></td>
+        <td class="name">Top Up T-Shirt</td>
+        <td class="price-total">$49.00</td>
+        <td>
+          <div class="form">
+            <input type="text" value="1" min="1" max="10">
+            <span class="negative">-</span>
+            <span class="positive">+</span>
+          </div>
+        </td>
+        <td class="price-total">$49.00</td>
+        <td>
+          <button>X</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td><img src="/Images/cloth_2.jpg" alt=""></td>
+        <td class="name">Polo Shirt</td>
+        <td class="price-total">$49.00</td>
+        <td>
+          <div class="form">
+            <input class="one" type="text" value="1" min="1" max="10">
+            <span class="negative">-</span>
+            <span class="positive">+</span>
+          </div>
+        </td>
+        <td class="price-total">$49.00</td>
+        <td>
+          <button class="button-two">X</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="cart-flex">
+    <div>
+      <button>Update Cart</button>
+      <button>Continue shopping</button>
+      <div>
+        <h2>Coupon</h2>
+        <p>Enter your coupon code if you have one.</p>
+        <input type="text" placeholder="Coupon Code">
+        <button>Apply coupon </button>
+      </div>
+    </div>
+    <div>
+      <h2 class="cart-total">Cart Totals</h2>
+      <div class="cart-total-flex flex-one">
+        <h6>Subtotal</h6>
+        <h6 >$230.00</h6>
+      </div>
+      <div class="cart-total-flex">
+        <h6>total</h6>
+        <h6 class="dollar">$230.00</h6>
+      </div>
+      <a href="/HTML/checkout.html">
+        <button class="cart-button">Proceed to Checkout</button>
+      </a>
+    </div>
+  </div>
+  <!-- this the table section end -->
+
+   <!-- this footer start -->
+   <footer>
+    <div class="footer-flex">
+      <div>
+        <h4>Navigation</h4>
+        <h6>Sell online</h6>
+        <h6>Features</h6>
+        <h6>Shopping cart</h6>
+        <h6>Store builder</h6>
+      </div>
+      <div>
+        <h6>Mobile commerce</h6>
+        <h6>Dropshipping</h6>
+        <h6>Website development</h6>
+      </div>
+      <div>
+        <h6>Point of sale</h6>
+        <h6>Hardware</h6>
+        <h6>Software</h6>
+      </div>
+      <div class="promo">
+        <h4>Promo</h4>
+        <img src="/Images/hero_1.jpg" alt="">
+        <h6 class="color">Finding Your perfect shoes</h6>
+        <h6>Promo from nuary 15 - 25,2019</h6>
+      </div>
+      <div>
+        <h4>Contact info</h4>
+          <div class="contact-flex">
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Sharjah, United Arab Emirates</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <p> +971 545144662</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <p> Danamedany94@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Subscribe</h3>
+        <input type="email" placeholder="Email">
+        <button>Send</button>
+    </div>
+     
+    <p>Copyright &copy; All rights reserved | This template is made with &#9829 by <span>Dana Mohamed</span> </p>
+   </footer>
+   <!-- this footer end -->
+</body>
+</html>
